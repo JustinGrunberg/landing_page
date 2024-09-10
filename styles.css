@@ -80,3 +80,45 @@ a {
     color: #E5E7EB;
     width: 425px;
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.image-caption-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.image-caption {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 5px;
+}
+
+.image-caption > div {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.image-caption > p {
+    text-align: justify;
+    color: gray;
+    font-size: 18px;
+}
+
