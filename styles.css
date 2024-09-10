@@ -150,4 +150,46 @@ a {
     align-self: flex-end;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 30px;
+}
+
+/* this container is aligned by using a set width and
+flex alignment of parent "section-four". The first sections container 
+are aligned by using padding. This approach maybe better practice*/
+
+.product-signup-container {
+    display: flex;
+    align-items: center;
+    width: 1075px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 2px solid #3882F6;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.product-signup > h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.product-signup > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.product-signup-button {
+    background-color: #3882F6;
+    padding: 5px 30px;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    font-weight: 900;
+    font-size: 18px;
+}
+
 
