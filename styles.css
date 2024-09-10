@@ -40,6 +40,7 @@ a {
     display: flex;
     justify-content: space-between;
     margin-bottom: 125px;
+    gap: 20px;
 }
 
 .signup-container {
@@ -79,6 +80,8 @@ a {
     background-color: gray;
     color: #E5E7EB;
     width: 425px;
+    height: 250px;
+    flex-shrink: 0;
 }
 
 .section-two {
