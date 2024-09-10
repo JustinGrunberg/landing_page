@@ -122,3 +122,32 @@ a {
     font-size: 18px;
 }
 
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-author-container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 90px 30px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: flex-end;
+}
+
+
